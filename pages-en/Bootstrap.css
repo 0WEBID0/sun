@@ -36962,6 +36962,11 @@ a.u-link.u-text-hover-grey-90:hover {
   .top1212{
     top: 53px;
   }
+
+  .u-header .u-logo-image-1 {
+    width: 244%;
+    height: 100%;
+}
 }
 
  /*begin-variables base-font-size*/ 
