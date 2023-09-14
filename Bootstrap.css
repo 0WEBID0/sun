@@ -10,6 +10,7 @@ body{
 
 .whatsapp-image {
   border-radius: 50%;
+  width: 65px;
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -25,6 +26,7 @@ body{
 
 .callsapp-image {
   border-radius: 50%;
+  width: 65px;
   position: fixed;
   bottom: 20px;
   left: 20px;
@@ -36779,7 +36781,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-logo-image-1 {
-  width: 250%;
+  width: 300%;
   height: 100%;
 }
 
@@ -36854,6 +36856,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-btn-1 {
+    display: none;
     margin-left: auto;
   }
 
@@ -36954,6 +36957,10 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-text-1 {
     width: 340px;
+  }
+
+  .top1212{
+    top: 53px;
   }
 }
 

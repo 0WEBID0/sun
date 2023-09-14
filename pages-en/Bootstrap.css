@@ -10,6 +10,7 @@
 
 .whatsapp-image {
   border-radius: 50%;
+  width: 65px;
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -25,6 +26,7 @@
 
 .callsapp-image {
   border-radius: 50%;
+  width: 65px;
   position: fixed;
   bottom: 20px;
   left: 20px;
@@ -61,6 +63,11 @@
     top: 603px
   }
 }
+/*begin-commonstyles library*//*!
+ * froala_editor v4.0.6 (https://www.froala.com/wysiwyg-editor)
+ * License https://froala.com/wysiwyg-editor/terms/
+ * Copyright 2014-2021 Froala Labs
+ */
 
 .fr-clearfix::after {
   clear: both;
@@ -36764,17 +36771,17 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 118px;
+  min-height: 84px;
 }
 
 .u-header .u-image-1 {
-  width: 304px;
-  height: 102px;
-  margin: 0 0 0 auto;
+  width: 118px;
+  height: 71px;
+  margin: 7px auto 0 0;
 }
 
 .u-header .u-logo-image-1 {
-  width: 100%;
+  width: 300%;
   height: 100%;
 }
 
@@ -36785,17 +36792,18 @@ a.u-link.u-text-hover-grey-90:hover {
   font-family: Tajawal;
   font-weight: 700;
   align-self: center;
-  margin: -84px auto 0;
+  margin: -58px auto 0;
   padding: 8px 33px;
 }
 
 .u-header .u-menu-1 {
-  margin: -36px auto 55px 0;
+  margin: -42px 0 27px auto;
 }
 
 .u-header .u-nav-1 {
   font-weight: 700;
   font-size: 1rem;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -36812,7 +36820,6 @@ a.u-link.u-text-hover-grey-90:hover {
   font-size: 1rem;
   letter-spacing: 0px;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
-  font-family: "Open Sans", sans-serif;
 }
 
 .u-header .u-nav-4 {
@@ -36820,47 +36827,42 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 1199px) {
   .u-header .u-sheet-1 {
-    min-height: 119px;
+    min-height: 93px;
   }
 
   .u-header .u-image-1 {
     width: 117px;
-    margin-right: 0;
+    margin-top: 11px;
   }
 
   .u-header .u-btn-1 {
-    margin-top: -65px;
-    margin-right: 280px;
+    margin-top: -58px;
+    margin-left: 308px;
   }
 
   .u-header .u-menu-1 {
     width: auto;
     margin-top: -40px;
-    margin-bottom: 42px;
-  }
-
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
+    margin-bottom: 29px;
   }
 }
 @media (max-width: 991px) {
   .u-header .u-sheet-1 {
-    min-height: 115px;
+    min-height: 99px;
   }
 
   .u-header .u-image-1 {
-    width: 127px;
-    height: 104px;
+    margin-top: 14px;
   }
 
   .u-header .u-btn-1 {
-    margin-top: -69px;
-    margin-right: 60px;
+    display: none;
+    margin-left: auto;
   }
 
   .u-header .u-menu-1 {
     margin-top: -38px;
-    margin-bottom: 42px;
+    margin-bottom: 34px;
   }
 
   .u-header .u-nav-3 {
@@ -36871,40 +36873,44 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 767px) {
   .u-header .u-sheet-1 {
-    min-height: 111px;
+    min-height: 106px;
   }
 
   .u-header .u-image-1 {
-    width: 152px;
-    height: 91px;
-    margin-right: 0;
+    width: 116px;
+    height: 70px;
+    margin-top: 18px;
   }
 
   .u-header .u-btn-1 {
-    margin-top: -69px;
-    margin-right: 0;
+    margin-top: -284px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -62px;
-    margin-bottom: 49px;
+    margin-top: -50px;
+    margin-bottom: 36px;
+  }
+
+  .u-header .u-nav-1 {
+    letter-spacing: normal;
   }
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 119px;
+    min-height: 95px;
   }
 
   .u-header .u-image-1 {
-    width: 190px;
-    height: 85px;
+    height: 68px;
     margin-top: 14px;
-    margin-right: 0;
+  }
+
+  .u-header .u-btn-1 {
+    margin-top: -284px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -67px;
-    margin-bottom: 55px;
+    margin: -48px auto 29px 316px;
   }
 }
 .u-header .u-btn-1, .u-header .u-btn-1:before {
@@ -36922,7 +36928,12 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-text-1 {
   font-size: 1.25rem;
   width: 417px;
-  margin: 25px auto;
+  margin: 26px auto 24px;
+}
+
+.u-footer .u-btn-1 {
+  background-image: none;
+  padding: 0;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
@@ -36946,6 +36957,10 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-text-1 {
     width: 340px;
+  }
+
+  .top1212{
+    top: 53px;
   }
 }
 
